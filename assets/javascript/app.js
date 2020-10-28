@@ -112,12 +112,16 @@ $(document).ready(function () {
 
         // Grab  input from the textbox
         var gif = $("#gif-input").val().trim();
-
+        
         // Adding movie from the textbox to our array
-        topics.push(gif);
+            if (gif !== "") {                
+                topics.push(gif);
+            } 
 
         // Calling renderButtons which handles the processing of our movie array
         renderButtons();
+
+        $("#gif-form").trigger("reset");
     });
 
 
