@@ -1,0 +1,78 @@
+/* 
+    Psuedo Code
+    Main
+    [] Background
+    [] Font
+
+    Styles
+    [] Buttons
+    [] Gifs
+
+*/
+
+/* General */
+
+body {
+    /* Typography */
+    vertical-align: middle;
+    /* Visual */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EDB579;
+}
+
+html, body {
+    height: 100%;
+}
+
+.btn {
+    margin: 3px;
+    background-color: #CC5543;
+    color: #ffffff;
+}
+
+#add-gif {
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 80px;
+    letter-spacing: 5mm;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0 10px;
+}    
+
+h3 {
+    font-size: 12px;
+    padding: 0 10px 10px;
+}    
+
+/* Styles */
+
+.gif-div {
+    margin: 5px;
+    float: left;
+}
+
+.gif {
+    border: solid 5px #DBE6AF;
+}
+
+.gif-div h2, h3 {
+    /* Positioning */
+    /* position: absolute; */
+    bottom: 20px;
+    width: 100%;
+    /* Box-model */
+    margin-bottom: 0;
+    font-weight: 300;
+    /* Typography */
+    color: #000000;
+    background: #DBE6AF;
+}
